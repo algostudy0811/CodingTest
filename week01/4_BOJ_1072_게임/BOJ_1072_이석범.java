@@ -1,16 +1,14 @@
-package czx;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 /**
- * X ¿Í Y°¡ °°À¸¸é Áï ½Â·üÀÌ 100ÀÌ¹Ç·Î ´õÀÌ»ó ¹Ù²ð ¼ö ¾øÀ¸¹Ç·Î -1 Ãâ·Â
- * ±×¿Ü¿¡ ¸ÕÀú ½Â·üÀ» ±¸ÇÏ°í +1À» ÇÏ°í ³ª¼­ È½¼ö¸¦ »©¸é µÊ
+ * X ì™€ Yê°€ ê°™ìœ¼ë©´ ì¦‰ ìŠ¹ë¥ ì´ 100ì´ë¯€ë¡œ ë”ì´ìƒ ë°”ë€” ìˆ˜ ì—†ìœ¼ë¯€ë¡œ -1 ì¶œë ¥
+ * ê·¸ì™¸ì— ë¨¼ì € ìŠ¹ë¥ ì„ êµ¬í•˜ê³  +1ì„ í•˜ê³  ë‚˜ì„œ íšŸìˆ˜ë¥¼ ë¹¼ë©´ ë¨
  * 11524KB 68ms
  */
-public class BOJ_1072_ÀÌ¼®¹ü {
+public class BOJ_1072_ì´ì„ë²” {
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(br.readLine());
@@ -18,8 +16,8 @@ public class BOJ_1072_ÀÌ¼®¹ü {
 		long X = Integer.parseInt(st.nextToken());
 		long Y = Integer.parseInt(st.nextToken());
 		
-		//½Â·ü ¼Ò¼öÁ¡ ÀÌÇÏ´Â ¹ö¸²
-		//¿©±â¼­ 100À» ³ªÁß¿¡ °öÇÏ¸é ¿ÀÂ÷°¡ ¹ß»ý? -> Æ²·È½À´Ï´Ù°¡ ³ª¿È
+		//ìŠ¹ë¥  ì†Œìˆ˜ì  ì´í•˜ëŠ” ë²„ë¦¼
+		//ì—¬ê¸°ì„œ 100ì„ ë‚˜ì¤‘ì— ê³±í•˜ë©´ ì˜¤ì°¨ê°€ ë°œìƒ? -> í‹€ë ¸ìŠµë‹ˆë‹¤ê°€ ë‚˜ì˜´
 		int z = (int) Math.floor(((1.0 * Y  * 100) / X));
 //		int z = (int) Math.floor(((1.0 * Y) / X) * 100);
 		
