@@ -10,5 +10,5 @@
 |[BOJ 12845](https://www.acmicpc.net/problem/12845) 모두의 마블|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
 |[PRO 258711](https://school.programmers.co.kr/learn/courses/30/lessons/258711) 도넛과 막대그래프|:heavy_check_mark:|::|::|::|:heavy_check_mark:|
 |[BOJ 18110](https://www.acmicpc.net/problem/18110) solved.ac|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
-|[BOJ 1072](https://www.acmicpc.net/problem/1072) 게임|:mag:|::|:heavy_check_mark:|:heavy_check_mark:|::|
-|[PRO 340212](https://school.programmers.co.kr/learn/courses/30/lessons/340212) 퍼즐 게임 챌린지|:heavy_check_mark:|::|::|:heavy_check_mark:|::|
+|[BOJ 1072](https://www.acmicpc.net/problem/1072) 게임|:mag:|::|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|[PRO 340212](https://school.programmers.co.kr/learn/courses/30/lessons/340212) 퍼즐 게임 챌린지|:heavy_check_mark:|::|::|:heavy_check_mark:|:heavy_check_mark:|
