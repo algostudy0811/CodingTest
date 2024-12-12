@@ -1,0 +1,14 @@
+
+# week01 (12월 2주차) :pencil:
+
+- 맞은 문제 :heavy_check_mark: 표기
+- 고민한 문제 :mag: 표기
+
+
+|Problem No.|이석범|장현영|정동찬|정영일|최규림|
+|:-------------------------|:-----:|:------------------:|:-----:|:-----:|:-----:|
+|[BOJ 1991](https://www.acmicpc.net/problem/1991) 트리 순회|::|::|::|::|::|
+|[BOJ 1932](https://www.acmicpc.net/problem/1932) 정수 삼각형|::|::|::|::|::|
+|[BOJ 1629](https://www.acmicpc.net/problem/1629) 곱셈|::|::|::|::|::|
+|[PRO 250136](https://school.programmers.co.kr/learn/courses/30/lessons/250136) 석유 시추|::|::|::|::|::|
+|[PRO 340211](https://school.programmers.co.kr/learn/courses/30/lessons/340211) 충돌위험 찾기|::|::|::|::|::|
