@@ -10,7 +10,7 @@ input = sys.stdin.readline
 
 x,y = map(int, input().split())
 # 정수값이 바뀔 경우를 계산하자
-win_percent = int(y/x * 100)
+win_percent = int(y*100/x)
 if win_percent >= 99:
     print(-1)
     exit(0)
