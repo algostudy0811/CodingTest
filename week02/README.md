@@ -9,6 +9,6 @@
 |:-------------------------|:-----:|:------------------:|:-----:|:-----:|:-----:|:-----:|
 |[BOJ 1991](https://www.acmicpc.net/problem/1991) 트리 순회|:heavy_check_mark:|:heavy_check_mark:|::|:heavy_check_mark:|::|::|
 |[BOJ 1932](https://www.acmicpc.net/problem/1932) 정수 삼각형|::|::|::|:heavy_check_mark:|::|::|
-|[BOJ 1629](https://www.acmicpc.net/problem/1629) 곱셈|::|::|::|::|::|::|
+|[BOJ 1629](https://www.acmicpc.net/problem/1629) 곱셈|::|::|::|:heavy_check_mark:|::|::|
 |[PRO 250136](https://school.programmers.co.kr/learn/courses/30/lessons/250136) 석유 시추|::|::|::|::|::|::|
 |[PRO 340211](https://school.programmers.co.kr/learn/courses/30/lessons/340211) 충돌위험 찾기|::|::|::|::|::|::|
