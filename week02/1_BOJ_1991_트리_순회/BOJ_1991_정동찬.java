@@ -7,10 +7,15 @@ import java.util.HashMap;
 import java.util.Map;
 
 class Q1991 {
+	// Tree class 정의
 	public static class Tree {
+		// Python의 dictionary처럼 key-value 값을 가지는 자료구조
+		// 트리를 구성하는 요소가 중복되지 않는 알파벳임이 보장되어 있으므로, 값 조회를 활용해 중복 방지
+		// key - Object, value - Node
 		Map<Object, Node> nodeMap = new HashMap<>();
 		Node root;
-		
+
+		// Tree를 구성하는 Node class 정의
 		public class Node {
 			Object data;
 			Node left;
@@ -27,6 +32,7 @@ class Q1991 {
 			if (data.equals(".")) return null;
 			
 			// nodeMap에 data가 포함되어 있지 않다면 생성
+			// data는 key로 저장되어 있으므로 key를 조회
 			if (!nodeMap.containsKey(data)) {
 				nodeMap.put(data, new Node(data));
 			}
@@ -40,6 +46,8 @@ class Q1991 {
 		public Node getRoot() {
 			return root;
 		}
+		
+		// 순회방식 정의
 		
 		// 전위순회 루트-좌-우
 		public String preOrder(Node node) {
