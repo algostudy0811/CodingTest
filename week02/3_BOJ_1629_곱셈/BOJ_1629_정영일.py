@@ -67,5 +67,5 @@ def square_times(A,B,C) :
 
 if __name__ == "__main__" :
     A, B, C = map(int, input().split())
-    # print(times(A,B,C))
-    print(square_times(A,B,C))
+    print(times(A,B,C))
+    # print(square_times(A,B,C))
