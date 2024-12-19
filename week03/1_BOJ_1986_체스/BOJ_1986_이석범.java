@@ -8,7 +8,11 @@ import java.util.List;
 import java.util.StringTokenizer;
 
 /*
- * 거꾸로 놓는게 편할 듯 
+ * 거꾸로 놓는게 편할 듯
+ * 폰의 경우 움직이지 않고 그자리에 장애물 같이 있으므로 그래프의 위치 저장(3)
+ * 나이트의 경우 8방향으로 움직일 수 잇는 곳에 -1을 하고 현재 위치에 있는 곳을 장애물 처리(2)
+ * 퀸의 경우 8방향인데 방향에 장애물이 존재하면 갈 수 없으므로 다른 곳 다 넣고 하
+ * 15972KB 104ms
  */
 public class BOJ_1986_이석범 {
 	
@@ -26,9 +30,11 @@ public class BOJ_1986_이석범 {
 		}
 	}
 	
+	//나이트 움직이는 방향
 	static int[] kdr = {-1, -2, -2, -1, 1, 2, 2, 1};
 	static int[] kdc = {-2, -1, 1, 2, 2, 1, -1, -2};
 	
+	//퀸 움직이는 방향 
 	static int[] qdr = {-1, -1, -1, 0, 1, 1, 1, 0};
 	static int[] qdc = {-1, 0, 1, 1, 1, 0, -1, -1};
 	
@@ -64,7 +70,7 @@ public class BOJ_1986_이석범 {
 		for(Node n:list[2]) {
 			knightMove(n);
 		}
-		
+		//퀸의 경우 
 		for(Node n:list[1]) {
 			queenMove(n);
 		}
@@ -93,6 +99,7 @@ public class BOJ_1986_이석범 {
 		System.out.println();
 	}
 	
+	//8방향으로 체크
 	public static void knightMove(Node n) {
 		for(int d=0; d<8;d++) {
 			int nr = n.r + kdr[d];
@@ -104,7 +111,7 @@ public class BOJ_1986_이석범 {
 			
 		}
 	}
-	
+	//퀸의 경우 장애물 만나기 전까지 움직임 
 	public static void queenMove(Node n) {
 		for(int d=0; d<8;d++) {
 			int nr = n.r;
