@@ -7,6 +7,7 @@ import java.util.*;
  * Queen과 Knight 조건에 맞춰서 이동
  * 이동 과정에서 점유하는 위치 count 하기(Quuen, Knight 중복 고려)
  * 전체 칸 수에서 Queen과 Knight가 점유한 칸수 빼기
+ * 16608KB 124ms
  */
 public class BOJ_1986_최규림 {
 
