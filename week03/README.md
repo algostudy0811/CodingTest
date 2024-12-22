@@ -11,4 +11,4 @@
 | [BOJ 2502](https://www.acmicpc.net/problem/2502) 떡 먹는 호랑이                          |   :heavy_check_mark:   |   ::   |   ::   |   ::   |   :heavy_check_mark:   |   ::   |
 | [PRO 67257](https://school.programmers.co.kr/learn/courses/30/lessons/67257) 수식_최대화 |   :heavy_check_mark:   |   ::   |   ::   |   ::   |   :heavy_check_mark:   |   ::   |
 | [BOJ 1394](https://www.acmicpc.net/problem/1394) 암호                                    |   :mag:   |   ::   |   ::   |   ::   |   :mag:   |   :heavy_check_mark:   |
-| [PRO 172927](https://school.programmers.co.kr/learn/courses/30/lessons/172927) 광물_캐기 |   ::   |   ::   |   ::   |   ::   |   :heavy_check_mark:   |   :heavy_check_mark:   |
+| [PRO 172927](https://school.programmers.co.kr/learn/courses/30/lessons/172927) 광물_캐기 |   :heavy_check_mark:   |   ::   |   ::   |   ::   |   :heavy_check_mark:   |   :heavy_check_mark:   |
