@@ -74,9 +74,10 @@ function solution(picks, minerals) {
           }
           break;
       }
-      if (pick <= 1 || nowPiking < levels.length)
+      if (pick <= 1 || nowPiking < levels.length) {
         nowPiking += 1
-      pick -= 1
+        pick -= 1
+      }
     }
   });
 
