@@ -7,12 +7,12 @@ import java.util.ArrayDeque;
 import java.util.Queue;
 import java.util.StringTokenizer;
 /*
- * ¿À¸¥ÂÊÀÌ³ª ¾Æ·¡Áß ÇÑ ¹æÇâÀ¸·Î ÇöÀç offset¸¸Å­ ÀÌµ¿ÇÏ¿© ¿ìÇÏ´ÜÀ¸·Î °¥ ¼ö ÀÖÀ¸¸é 
- * "HaruHaru"¾Æ´Ï¸é "Hing"
- * BFS·Î ¿ÀÇÁ¼ÂÀÇ ÇØ´çÇÏ´Â °÷À¸·Î ÀÌµ¿ÇÒ ¼ö ÀÖÀ½
- * 12268KB 80ms
+ * ì˜¤ë¥¸ìª½ì´ë‚˜ ì•„ë˜ì¤‘ í•œ ë°©í–¥ìœ¼ë¡œ í˜„ì¬ offsetë§Œí¼ ì´ë™í•˜ì—¬ ìš°í•˜ë‹¨ìœ¼ë¡œ ê°ˆ ìˆ˜ ìˆìœ¼ë©´ 
+ * "HaruHaru"ì•„ë‹ˆë©´ "Hing"
+ * dpë¥¼ í†µí•´ ì‹œê°„ì„ ì¤„ì¼ ìˆ˜ ìˆìŒ
+ * 12208KB 76ms
  */
-public class BOJ_16174_ÀÌ¼®¹ü2 {
+public class BOJ_16174_ì´ì„ë²”2 {
 	
 	static int N;
 	static int[][] graph, dp;
