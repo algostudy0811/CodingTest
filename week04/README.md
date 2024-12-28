@@ -8,7 +8,7 @@
 | Problem No.|이석범|장현영|정영일|최규림|김아영|
 |:--------------------------------------------------------------------------------------- |:----------------:|:----:|:----------------:|:----------------:|:----------------:|
 | [BOJ 16174](https://www.acmicpc.net/problem/16174) 점프왕_쩰리(Large)                                    |:heavy_check_mark:|::|::|:heavy_check_mark:|:heavy_check_mark:|
-| [BOJ 20364](https://www.acmicpc.net/problem/20364) 부동산_다툼                          |:heavy_check_mark:|::|::|::|::|
+| [BOJ 20364](https://www.acmicpc.net/problem/20364) 부동산_다툼                          |:heavy_check_mark:|::|::|:heavy_check_mark:|::|
 | [PRO 250135](https://school.programmers.co.kr/learn/courses/30/lessons/250135) 아날로그_시계 |::|::|::|::|::|
 | [BOJ 19940](https://www.acmicpc.net/problem/19940) 피자_오븐                                    |::|::|::|::|::|
 | [PRO 159993](https://school.programmers.co.kr/learn/courses/30/lessons/159993) 미로_탈출 |::|::|::|::|::|
