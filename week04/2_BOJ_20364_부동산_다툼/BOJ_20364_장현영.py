@@ -3,8 +3,13 @@
 더이상 오리 집어넣을 수 없을 때 해당 땅번호 출력
 이진트리
 오리가 해당 땅에갈 수 있는지ㅍ없는지 확인하기
-시간초과 ㅠㅠ
+입출력 시간 빠르게 처리하기!!
+sys.stdin.readline
 """
+
+import sys
+
+input = sys.stdin.readline
 
 n, q = map(int, input().split())
 occupied = [0] * (n+1)  # 점유 상태를 나타내는 리스트
