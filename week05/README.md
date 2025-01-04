@@ -12,3 +12,4 @@
 | [PRO 60059](https://school.programmers.co.kr/learn/courses/30/lessons/60059) 자물쇠와 열쇠 |       ::        |       ::        |       ::        |       ::        |       ::        |
 | [BOJ 1647](https://www.acmicpc.net/problem/1647) 도시 분할 계획                                 |       ::        |  ::         | :: | :: |       ::        |
 | [PRO 92342](https://school.programmers.co.kr/learn/courses/30/lessons/92342) 양궁대회     | :: | :: | :: | :: | :: |
+https://www.acmicpc.net/problem/16953
