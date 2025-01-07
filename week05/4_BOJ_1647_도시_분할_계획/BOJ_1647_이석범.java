@@ -7,12 +7,12 @@ import java.util.PriorityQueue;
 import java.util.StringTokenizer;
 
 /*
- * MST·Î ¸ÕÀú »çÀÌÅ¬ÀÌ µÇÁö ¾Ê´Â ±×·¡ÇÁ¸¦ ±¸ÇÑ´ÙÀ½ °¡Àå Å« °£¼±À» »©¸é ´äÀÌ ³ª¿È
- * MSTÀÇ °æ¿ì Å©·ç½ºÄ®À» »ç¿ëÇÏ¸é µÈ´Ù
+ * MSTë¡œ ë¨¼ì € ì‚¬ì´í´ì´ ë˜ì§€ ì•ŠëŠ” ê·¸ë˜í”„ë¥¼ êµ¬í•œë‹¤ìŒ ê°€ì¥ í° ê°„ì„ ì„ ë¹¼ë©´ ë‹µì´ ë‚˜ì˜´
+ * MSTì˜ ê²½ìš° í¬ë£¨ìŠ¤ì¹¼ì„ ì‚¬ìš©í•˜ë©´ ëœë‹¤
  * 
  * 324324KB 1416ms
  */
-public class BOJ_1647_ÀÌ¼®¹ü {
+public class BOJ_1647_ì´ì„ë²” {
 	
 	static int N;
 	static int[] parent;
@@ -42,9 +42,9 @@ public class BOJ_1647_ÀÌ¼®¹ü {
 		N = Integer.parseInt(st.nextToken());
 		int M = Integer.parseInt(st.nextToken());
 		
-		//°£¼±ÀÇ ºñ¿ë´ë·Î Á¤·ÄÇÏ´Â Å¥
+		//ê°„ì„ ì˜ ë¹„ìš©ëŒ€ë¡œ ì •ë ¬í•˜ëŠ” í
 		PriorityQueue<Node> pq = new PriorityQueue<>();
-		//ºñ¿ë¸®½ºÆ®¿¡¼­ °¡ÀåÅ« ¼ö¸¦ »©±â À§ÇØ »ç¿ëÇÏ´Â Å¥
+		//ë¹„ìš©ë¦¬ìŠ¤íŠ¸ì—ì„œ ê°€ì¥í° ìˆ˜ë¥¼ ë¹¼ê¸° ìœ„í•´ ì‚¬ìš©í•˜ëŠ” í
 		PriorityQueue<Integer> costList = new PriorityQueue<>();
 		
 		parent = new int[N+1];
@@ -87,7 +87,7 @@ public class BOJ_1647_ÀÌ¼®¹ü {
 		
 	}
 	
-	//ºÎ¸ğ Ã£´Â ¸Ş¼­µå
+	//ë¶€ëª¨ ì°¾ëŠ” ë©”ì„œë“œ
 	static int find(int x) {
 		if(parent[x] == x) {
 			return x;
@@ -96,8 +96,8 @@ public class BOJ_1647_ÀÌ¼®¹ü {
 		return parent[x] = find(parent[x]);
 	}
 	
-	//ºÎ¸ğ ÇÕÄ¡±â
-	//ÁÖÀÇ»çÇ×À¸·Î´Â parent[parentA]ÀÇ °ª Áï ºÎ¸ğÀÇ ºÎ¸ğ¸¦ ¹Ù²ã¾ßÇÔ
+	//ë¶€ëª¨ í•©ì¹˜ê¸°
+	//ì£¼ì˜ì‚¬í•­ìœ¼ë¡œëŠ” parent[parentA]ì˜ ê°’ ì¦‰ ë¶€ëª¨ì˜ ë¶€ëª¨ë¥¼ ë°”ê¿”ì•¼í•¨
 	static boolean union(int a, int b) {
 		int parentA = find(a);
 		int parentB = find(b);
