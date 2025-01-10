@@ -8,15 +8,15 @@ import java.util.Queue;
 import java.util.StringTokenizer;
 
 /*
- * ¸ñÇ¥ÁöÁ¡¿¡¼­ ´Ü¼ø ·¹º§º° BFS·Î Å½»öÇÏ¸é¼­ visited¹è¿­¿¡ ·¹º§³Ö±â
- * ÁÖÀÇ»çÇ×
- * 1. ½ÃÀÛ ÁÂÇ¥ÀÇ visited¸¦ 0À¸·Î ÇÒ °æ¿ì °è¼Ó Ã£±â ¶§¹®¿¡ ÀÓ½Ã·Î -1À» ³Ö°í ÃßÈÄ¿¡ 0À» »ğÀÔ
- * 2. ½ÃÀÛ ÁÂÇ¥ÀÇ graphÀÇ °ªÀÌ 2ÀÌ¹Ç·Î ÁÖÀÇ
- * 3. °¥¼ö ÀÖ´Â ÁÂÇ¥ Áï graph¿¡ °ªÀÌ 1ÀÌ¸é¼­ visited°¡ 0ÀÎ ÁÂÇ¥ÀÇ °æ¿ì -1 Ãâ·Â
+ * ëª©í‘œì§€ì ì—ì„œ ë‹¨ìˆœ ë ˆë²¨ë³„ BFSë¡œ íƒìƒ‰í•˜ë©´ì„œ visitedë°°ì—´ì— ë ˆë²¨ë„£ê¸°
+ * ì£¼ì˜ì‚¬í•­
+ * 1. ì‹œì‘ ì¢Œí‘œì˜ visitedë¥¼ 0ìœ¼ë¡œ í•  ê²½ìš° ê³„ì† ì°¾ê¸° ë•Œë¬¸ì— ì„ì‹œë¡œ -1ì„ ë„£ê³  ì¶”í›„ì— 0ì„ ì‚½ì…
+ * 2. ì‹œì‘ ì¢Œí‘œì˜ graphì˜ ê°’ì´ 2ì´ë¯€ë¡œ ì£¼ì˜
+ * 3. ê°ˆìˆ˜ ìˆëŠ” ì¢Œí‘œ ì¦‰ graphì— ê°’ì´ 1ì´ë©´ì„œ visitedê°€ 0ì¸ ì¢Œí‘œì˜ ê²½ìš° -1 ì¶œë ¥
  * 
  * 92436KB 1956ms
  */
-public class BOJ_14940_ÀÌ¼®¹ü {
+public class BOJ_14940_ì´ì„ë²” {
 	
 	static int R,C;
 	static int[][] graph;
@@ -41,7 +41,7 @@ public class BOJ_14940_ÀÌ¼®¹ü {
 		Queue<Node> queue = new ArrayDeque<>();
 		queue.offer(new Node(startR, startC));
 		
-		//½ÃÀÛÁÂÇ¥¸¦ -1·Î ÀÓ½Ã ÃÊ±âÈ­
+		//ì‹œì‘ì¢Œí‘œë¥¼ -1ë¡œ ì„ì‹œ ì´ˆê¸°í™”
 		visited[startR][startC] = -1;
 		
 		int cnt = 0;
@@ -57,7 +57,7 @@ public class BOJ_14940_ÀÌ¼®¹ü {
 					int nr = r+dr[d];
 					int nc = c+dc[d];
 					
-					//0ÀÎ °æ¿ì·Î ÇÒ °æ¿ì ¸ñÇ¥ÁöÁ¡À» °è¼Ó ¹æ¹® ÇÒ ¼ö ÀÖÀ½
+					//0ì¸ ê²½ìš°ë¡œ í•  ê²½ìš° ëª©í‘œì§€ì ì„ ê³„ì† ë°©ë¬¸ í•  ìˆ˜ ìˆìŒ
 					if(nr < 0 || nr >=R || nc < 0 || nc >=C || graph[nr][nc]!=1) continue;
 					
 					if(visited[nr][nc]!=0) continue;
@@ -100,7 +100,7 @@ public class BOJ_14940_ÀÌ¼®¹ü {
 		visited[startR][startC] = 0;
 		for(int r=0; r<R;r++) {
 			for(int c=0; c<C;c++) {
-				//ÁÖÀÇ °¥¼ö ÀÖÁö¸¸ ½ÇÁ¦·Î °¥¼ö ¾øÀ¸¸é -1 Ãâ·Â
+				//ì£¼ì˜ ê°ˆìˆ˜ ìˆì§€ë§Œ ì‹¤ì œë¡œ ê°ˆìˆ˜ ì—†ìœ¼ë©´ -1 ì¶œë ¥
 				if(graph[r][c]==1 && visited[r][c]==0) System.out.print(-1+" ");
 				else System.out.print(visited[r][c]+" ");
 			}
