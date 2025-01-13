@@ -7,12 +7,17 @@ import java.util.ArrayDeque;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-public class BOJ_9019_�̼��� {
+/*
+ * BFS로 4가지를 반복하여 숫자 찾을때까지 반복
+ * 	297992KB 5552ms
+ */
+public class BOJ_9019_이석범 {
 	
 	static final int D=0, S=1, L=2, R=3;
 	
 	static int start, end;
 	
+	//num이랑 그때의 회전 순서
 	static class Node {
 		int num;
 		String way;
