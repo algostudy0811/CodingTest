@@ -9,6 +9,6 @@
 | :------------------------------------------------------------------------------------------- | :----------------: | :----------------: | :----------------: | :----------------: | :----------------: |
 | [BOJ 14940](https://www.acmicpc.net/problem/14940) 쉬운 최단거리                     | :heavy_check_mark: | :: | :: | :heavy_check_mark: | :heavy_check_mark: |
 | [BOJ 1620](https://www.acmicpc.net/problem/1620) 나는야 포켓몬 마스터 이다솜                             | :heavy_check_mark: | :: | :: | :heavy_check_mark: | :heavy_check_mark: |
-| [BOJ 6064](https://www.acmicpc.net/problem/6064) 카잉 달력 |       :heavy_check_mark:        |       ::        |       ::        |       ::        |       :heavy_check_mark:        |
+| [BOJ 6064](https://www.acmicpc.net/problem/6064) 카잉 달력 |       :heavy_check_mark:        |       ::        |       ::        |       :heavy_check_mark:        |       :heavy_check_mark:        |
 | [BOJ 9019](https://www.acmicpc.net/problem/9019) DSLR                                  |       :heavy_check_mark:        |  ::         | :: | :: |       :heavy_check_mark:        |
 | [PRO 42884](https://school.programmers.co.kr/learn/courses/30/lessons/42884) 단속카메라     | :: | :: | :: | :: | :: |
