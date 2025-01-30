@@ -11,4 +11,4 @@
 | [BOJ 2140](https://www.acmicpc.net/problem/2140) 지뢰찾기            | :mag: | :: | :: | :mag: | 
 | [PRO 77485](https://school.programmers.co.kr/learn/courses/30/lessons/77485) 행렬_테두리_회전하기                              | :heavy_check_mark: | :: | :: | :heavy_check_mark: | 
 | [BOJ 2343](https://www.acmicpc.net/problem/2343) 기타_레슨                                  | :: |   ::   | :: | :mag: | 
-| [PRO 72411](https://school.programmers.co.kr/learn/courses/30/lessons/72411) 메뉴_리뉴얼 | :: | :: | :: | :: |
+| [PRO 72411](https://school.programmers.co.kr/learn/courses/30/lessons/72411) 메뉴_리뉴얼 | :: | :: | :: | :heavy_check_mark: |
