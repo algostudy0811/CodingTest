@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/0_1_study_BOJ_10773_제로" isTestSource="false" packagePrefix="algorithm" />
+      <sourceFolder url="file://$MODULE_DIR$/0_2_study_BOJ_18110_solved.ac" isTestSource="false" packagePrefix="algorithm" />
+      <sourceFolder url="file://$MODULE_DIR$/1_BOJ_14940_쉬운_최단거리" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2_BOJ_1620_나는야_포켓몬_마스터_이다솜" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/3_BOJ_6064_카잉_달력" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/4_BOJ_9019_DSLR" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/5_PRO_42884_단속카메라" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

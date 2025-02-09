@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/1_BOJ_2531_회전초밥" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2_BOJ_2140_지뢰찾기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/3_PRO_77485_행렬_테두리_회전하기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/4_BOJ_2343_기타_레슨" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/5_PRO_72411_메뉴_리뉴얼" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
