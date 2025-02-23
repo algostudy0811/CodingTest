@@ -11,4 +11,4 @@
 | [BOJ 5525](https://www.acmicpc.net/problem/5525) IOIOI                                |:mag:|::|:heavy_check_mark:|::|
 | [BOJ 1074](https://www.acmicpc.net/problem/1074) Z                                   |:heavy_check_mark:|::|:heavy_check_mark:|::|
 | [BOJ 13549](https://www.acmicpc.net/problem/13549) 숨바꼭질 3                             |:heavy_check_mark:|::|:heavy_check_mark:|::|
-| [PRO 389480](https://school.programmers.co.kr/learn/courses/30/lessons/389480 ) 완전 범죄 |::|::|:heavy_check_mark:|::|
+| [PRO 389480](https://school.programmers.co.kr/learn/courses/30/lessons/389480 ) 완전 범죄 |:heavy_check_mark:|::|:heavy_check_mark:|::|
