@@ -7,7 +7,9 @@
       <sourceFolder url="file://$MODULE_DIR$/0_1_study_64065_튜플" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/1_BOJ_1931_회의실" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/2_BOJ_1018_체스판_다시_칠하기" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/3_PRO_72412_순위검색" isTestSource="false" packagePrefix="algorithm" />
+      <sourceFolder url="file://$MODULE_DIR$/3_PRO_72412_순위검색" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/4_BOJ_1874_스택_수열" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/5_BOJ_5430_AC" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
