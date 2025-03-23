@@ -9,5 +9,5 @@
 |:--------------------------------------------------------| :----------------: | :----------------: | :----------------:|:----------------: |
 | [BOJ 1495](https://www.acmicpc.net/problem/1495) 기타리스트  |:heavy_check_mark:|::|::|::|
 | [BOJ 9935](https://www.acmicpc.net/problem/9935) 문자열 폭발 |:heavy_check_mark:|::|::|::|
-| [BOJ 2565](https://www.acmicpc.net/problem/2565) 전깃줄    |::|::|::|::|
-| [BOJ 2225](https://www.acmicpc.net/problem/2225) 합분해    |::|::|::|::|
+| [BOJ 2565](https://www.acmicpc.net/problem/2565) 전깃줄    |:mag:|::|::|::|
+| [BOJ 2225](https://www.acmicpc.net/problem/2225) 합분해    |:heavy_check_mark:|::|::|::|
