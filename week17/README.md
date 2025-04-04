@@ -7,7 +7,7 @@
 
 | Problem No.                                             |       이석범       | 장현영 |       김아영       | 홍경현 |
 |:--------------------------------------------------------| :----------------: | :----------------: | :----------------:|:----------------: |
-| [BOJ 1504](https://www.acmicpc.net/problem/1504) 특정한 최단 경로  |:heavy_check_mark:|::|::|::|
-| [BOJ 2069](https://www.acmicpc.net/problem/2096) 내려가기 |::|::|::|::|
-| [BOJ 2448](https://www.acmicpc.net/problem/2448) 별 찍기-11    |::|::|::|::|
-| [BOJ 2638](https://www.acmicpc.net/problem/2638) 치즈    |::|::|::|::|
+| [BOJ 1504](https://www.acmicpc.net/problem/1504) 특정한 최단 경로  |:heavy_check_mark:|::|:heavy_check_mark:|::|
+| [BOJ 2069](https://www.acmicpc.net/problem/2096) 내려가기 |::|::|:heavy_check_mark:|::|
+| [BOJ 2448](https://www.acmicpc.net/problem/2448) 별 찍기-11    |::|::|:mag:|::|
+| [BOJ 2638](https://www.acmicpc.net/problem/2638) 치즈    |::|::|:heavy_check_mark:|::|
