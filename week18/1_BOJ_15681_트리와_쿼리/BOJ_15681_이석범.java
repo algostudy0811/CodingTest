@@ -5,11 +5,15 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.StringTokenizer;
-
+/*
+그래프에서 dp
+77308KB 596ms
+ */
 public class BOJ_15681_이석범 {
 
     static int N;
 
+    //그래프 생성
     static class Graph {
         int N;
         int R;
@@ -26,6 +30,7 @@ public class BOJ_15681_이석범 {
             for(int i=1; i<N+1;i++) nodeList[i] = new Node(i);
         }
 
+        //양방향이므로 두개 노드에 추가
         void addEdge(int a, int b) {
             Node aNode = nodeList[a];
             Node bNode = nodeList[b];
@@ -34,6 +39,7 @@ public class BOJ_15681_이석범 {
             bNode.adj.add(aNode);
         }
 
+        //서브트리로 부터 개수 파악
         void makeSubTree(int root) {
             dp[root] = 1;
             Node n = nodeList[root];
