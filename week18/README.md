@@ -10,4 +10,4 @@
 | [BOJ 15681](https://www.acmicpc.net/problem/15681) 트리와 쿼리  |:mag:|::|::|:heavy_check_mark:|
 | [BOJ 14267](https://www.acmicpc.net/problem/14267) 회사 문화 1 |:heavy_check_mark:|::|::|:heavy_check_mark:|
 | [BOJ 10282](https://www.acmicpc.net/problem/10282) 해킹      |::|::|::|:heavy_check_mark:|
-| [BOJ 5427](https://www.acmicpc.net/problem/5427) 불         |::|::|::|::|
+| [BOJ 5427](https://www.acmicpc.net/problem/5427) 불         |::|::|::|:heavy_check_mark:|
