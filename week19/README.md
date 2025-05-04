@@ -10,5 +10,5 @@
 | [BOJ 2036](https://www.acmicpc.net/problem/2036) 수열의 점수  |:mag:|::|::|::|
 | [BOJ 11067](https://www.acmicpc.net/problem/11067) 모노톤길  |:mag:|::|::|::|
 | [BOJ 1062](https://www.acmicpc.net/problem/1062) 가르침       |:heavy_check_mark:|::|::|::|
-| [BOJ 18223](https://www.acmicpc.net/problem/18223) 	민준이와 마산 그리고 건우         |::|::|::|::|
+| [BOJ 18223](https://www.acmicpc.net/problem/18223) 	민준이와 마산 그리고 건우         |:heavy_check_mark:|::|::|::|
 
