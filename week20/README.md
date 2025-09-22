@@ -10,6 +10,6 @@
 | [BOJ 16928](https://www.acmicpc.net/problem/16928) 뱀과 사다리 게임  |:heavy_check_mark:|::|
 | [BOJ 21736](https://www.acmicpc.net/problem/21736) 	헌내기는 친구가 필요해  |:heavy_check_mark:|::|
 | [BOJ 18870](https://www.acmicpc.net/problem/18870) 	좌표압축  |:mag:|:heavy_check_mark:|
-| [LEET 577](https://leetcode.com/problems/employee-bonus/description/) employee bonus       |::|:heavy_check_mark:|
+| [LEET 577](https://leetcode.com/problems/employee-bonus/description/) employee bonus       |:heavy_check_mark:|:heavy_check_mark:|
 | [LEET 196](https://leetcode.com/problems/delete-duplicate-emails/description/) delete duplicate emails	        |::|:heavy_check_mark:|
 
